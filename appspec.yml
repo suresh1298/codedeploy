@@ -1,7 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - rm: /var/www/html/index.html
   - source: /index.html
     destination: /var/www/html/
 hooks:
